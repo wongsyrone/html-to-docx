@@ -56,6 +56,8 @@ import {
 import { vNodeHasChildren } from '../utils/vnode';
 import { isValidUrl } from '../utils/url';
 
+import { Buffer } from "buffer";
+
 // eslint-disable-next-line consistent-return
 const fixupColorCode = (colorCodeString) => {
   if (Object.prototype.hasOwnProperty.call(colorNames, colorCodeString.toLowerCase())) {

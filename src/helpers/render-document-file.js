@@ -20,6 +20,8 @@ import { imageType, internalRelationship } from '../constants';
 import { vNodeHasChildren } from '../utils/vnode';
 import { isValidUrl } from '../utils/url';
 
+import { Buffer } from "buffer";
+
 const convertHTML = HTMLToVDOM({
   VNode,
   VText,
